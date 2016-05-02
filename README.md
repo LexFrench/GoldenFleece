@@ -1,5 +1,7 @@
 # GoldenFleece
 [![Build Status](https://travis-ci.org/LexFrench/GoldenFleece.svg?branch=master)](https://travis-ci.org/LexFrench/GoldenFleece)
+[![Coverage](http://gocover.io/_badge/github.com/LexFrench/GoldenFleece)](http://gocover.io/github.com/LexFrench/GoldenFleece)
+[![GoDoc](http://img.shields.io/badge/godoc-reference-blue.svg?style=flat)](https://godoc.org/github.com/LexFrench/GoldenFleece) [![License](https://img.shields.io/badge/license-GPL-lightgrey.svg)](https://github.com/LexFrench/GoldenFleece/blob/master/LICENSE)
 
 GoLang json parser for unknown json data models
 
