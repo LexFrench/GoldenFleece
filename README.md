@@ -6,16 +6,13 @@
 GoLang json parser for unknown json data models
 
 ##Install
-----------
 
     go get github.com/LexFrench/GoldenFleece
 
 ##To-Do List
-----------
 - Write benchmark tests
 
 ##Examples/How-To
-----------
 ###Load JSON byte array
 Load json byte array and parse it for use.
 
@@ -62,7 +59,6 @@ Using any of the above methods you can access data down nested JSON paths.
     result, err := data.GetInt("foo", "bar")
 
 ##FAQ:
-----------
  **Q:** Why did you write JSON parser when there is already an amazing JSON encoding package built in?
  **A:** Hi Carl, you don't mind if I call you Carl, do you? So Carl, you're absolutely right; the built in encoding/JSON package is amazing -- so much so that I even use it in this library. To answer your question Carl, the main reason I created this package is because I was in the process of learning GoLang and realized that handling dynamic JSON was not as intuitive as some other scripting languages (\*cough* Python \*cough*), so I built something that would allow me to work with JSON in which I don't know what the data will look like coming from the server.
 
