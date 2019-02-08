@@ -60,10 +60,13 @@ Using any of the above methods you can access data down nested JSON paths.
 
 ## FAQ:
  **Q:** Why did you write JSON parser when there is already an amazing JSON encoding package built in?
+ 
  **A:** Hi Carl, you don't mind if I call you Carl, do you? So Carl, you're absolutely right; the built in encoding/JSON package is amazing -- so much so that I even use it in this library. To answer your question Carl, the main reason I created this package is because I was in the process of learning GoLang and realized that handling dynamic JSON was not as intuitive as some other scripting languages (\*cough* Python \*cough*), so I built something that would allow me to work with JSON in which I don't know what the data will look like coming from the server.
 
 **Q:** But aren't there a bunch of other Go Libraries that will do just that?
+
 **A:** I don't think you were listening, Carl! Like I said, I'm learning GoLang and this is a nice easy problem to solve and learn some of the basics of GO.
 
 **Q:** Why do you keep calling me Carl?
+
 **A:** Stop asking dumb questions Carl.
